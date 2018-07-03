@@ -56,7 +56,7 @@ public class Lesson {
         this.classroomNo = classroomNo;
     }
 
-    @Column(name = "date")
+    @Column(name = "date_and_time")
     public GregorianCalendar getDate() {
         return date;
     }

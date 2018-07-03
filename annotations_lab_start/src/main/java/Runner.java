@@ -27,11 +27,11 @@ public class Runner {
         DBHelper.save(instructor1);
         DBHelper.save(instructor2);
 
-        Lesson lesson1 = new Lesson("S/w engineering", 01, new GregorianCalendar(2018,06,03), course1, instructor1);
-        Lesson lesson2 = new Lesson("Information tech", 02, new GregorianCalendar(2018, 06, 04), course2, instructor2 );
-        Lesson lesson3 = new Lesson("History", 03, new GregorianCalendar(2018, 06, 04), course4, instructor1);
-        Lesson lesson4 = new Lesson("Tally", 04, new GregorianCalendar(2018, 06, 05), course3, instructor2);
-        Lesson lesson5 = new Lesson("Arts", 05, new GregorianCalendar(2018, 06, 05), course4, instructor1);
+        Lesson lesson1 = new Lesson("S/w engineering", 01, new GregorianCalendar(2018,06,03, 11,00,00), course1, instructor1);
+        Lesson lesson2 = new Lesson("Information tech", 02, new GregorianCalendar(2018, 06, 04, 10,00,00), course2, instructor2 );
+        Lesson lesson3 = new Lesson("History", 03, new GregorianCalendar(2018, 06, 04, 11,15,00), course4, instructor1);
+        Lesson lesson4 = new Lesson("Tally", 04, new GregorianCalendar(2018, 06, 05, 10,30,00), course3, instructor2);
+        Lesson lesson5 = new Lesson("Arts", 05, new GregorianCalendar(2018, 06, 05, 11,00,00), course4, instructor1);
 
         DBHelper.save(lesson1);
         DBHelper.save(lesson2);
